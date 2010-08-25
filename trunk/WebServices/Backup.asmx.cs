@@ -64,7 +64,7 @@ namespace WebServices
             {
 
                 DateTime fecha = DateTime.Parse(_fecha);
-                return fecha.ToString("yyyy_dd_MM");
+                return fecha.ToString("yyyy_MM_dd");
             }
             catch (Exception ex)
             {
@@ -89,7 +89,7 @@ namespace WebServices
                     
                 }*/
                 _line = file.ReadLine();
-                return _line;
+                return "la puta madre";
             }
             catch (Exception ex)
             {
