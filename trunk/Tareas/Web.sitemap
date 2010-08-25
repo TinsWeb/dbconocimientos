@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="" title="Web Site" roles="*">
+    <siteMapNode url="~/Default.aspx" title="Página principal" />
+    <siteMapNode url="~/Equipos/Default.aspx" title="Equipos">
+      <siteMapNode url="~/Equipos/Grupos.aspx" title="Grupos" />
+    </siteMapNode>
+    <siteMapNode url="~/Tareas/Default.aspx" title="Tareas">
+      <siteMapNode url="~/Tareas/Estados.aspx" title="Estados" />
+      <siteMapNode url="~/Tareas/Soluciones.aspx" title="Soluciones" />
+    </siteMapNode>
+    <siteMapNode title="Perfil" roles="Administradores,Usuarios">
+      <siteMapNode url="~/Account/ChangePassword.aspx" title="Cambiar contraseña" />
+    </siteMapNode>
+    
+    <siteMapNode title="Administracion" roles="Administradores">
+        <siteMapNode url="~/Admin/AdminRoles.aspx" title="Roles" />
+        <siteMapNode url="~/Admin/Usuarios_Roles.aspx" title="Usuarios" />
+        <siteMapNode url="~/Admin/CrearUsuario.aspx" title="Crear Usuario" />
+        <!--<siteMapNode url="~/Admin/AdminUsuarios.aspx" title="Administrar Usuarios" />-->
+    </siteMapNode>
+
+    <siteMapNode url="~/Backups/Default.aspx" title="Backups" />
+    <siteMapNode url="~/ReporteErrores/Default.aspx" title="Reporte de Errores" />
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Tareas.SiteMaster" %>
+
+<%@ Register assembly="DevExpress.Web.v10.1, Version=10.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxMenu" tagprefix="dx" %>
+
+<%@ Register assembly="DevExpress.Web.v10.1, Version=10.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxLoadingPanel" tagprefix="dx" %>
+
+<%@ Register assembly="DevExpress.Web.v10.1, Version=10.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxSiteMapControl" tagprefix="dx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form runat="server">
+    
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <img src="<%: Request.Url.GetLeftPart(UriPartial.Authority) %>/tareas/Imagenes/Logo.png" />
+            </div>
+            
+            
+            
+            <div class="clear hideSkiplink">
+
+                <dx:ASPxMenu ID="mnuTareas" runat="server" 
+                    DataSourceID="sitemapTareas" ItemAutoWidth="False" Width="100%">
+                    <Items>
+                        <dx:MenuItem NavigateUrl="~/Default.aspx" Text="Principal" />
+                        <dx:MenuItem NavigateUrl="~/About.aspx" Text="Acerca De" />
+                        <dx:MenuItem NavigateUrl="~/Equipos/Default.aspx" Text="Equipos" >
+                            <Items>
+                                <dx:MenuItem Name="Grupos" NavigateUrl="~/Equipos/Grupos.aspx" Text="Grupos" 
+                                    ToolTip="Grupos de Equipos">
+                                </dx:MenuItem>
+                            </Items>
+                        </dx:MenuItem>
+                        <dx:MenuItem NavigateUrl="~/Tareas/Default.aspx" Text="Tareas" >
+                        
+                            <Items>
+                                <dx:MenuItem Text="Estados" NavigateUrl="~/Tareas/Estados.aspx">
+                                </dx:MenuItem>
+                                <dx:MenuItem Name="Soluciones" NavigateUrl="~/Tareas/Soluciones.aspx" 
+                                    Text="Soluciones">
+                                </dx:MenuItem>
+                            </Items>
+                        </dx:MenuItem>
+                        
+                        <dx:MenuItem NavigateUrl="~/ReporteErrores/Default.aspx" 
+                            Text="Reporte de Errores">
+                        </dx:MenuItem>
+                        
+                        <dx:MenuItem NavigateUrl="~/Backups/Default.aspx" Text="Backups">
+                        </dx:MenuItem>
+                        
+                    </Items>
+                </dx:ASPxMenu>
+
+                <dx:ASPxSiteMapDataSource ID="sitemapTareas" runat="server" SiteMapFileName="" 
+                    SiteMapProvider="MenuSiteMap" />
+
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+
+    </form>
+</body>
+</html>
