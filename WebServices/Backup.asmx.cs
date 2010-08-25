@@ -23,7 +23,7 @@ namespace WebServices
 
         private string _hostEquipo;
         private string _fechaBackup;
-
+        private string _fechaActual = DateTime.Today.ToString("yyyy_MM_dd");
         /// <returns>Un DataSet con los datos de la tabla Backups</returns>
         [WebMethod]
         public string EstadoBackup(int id)
@@ -44,10 +44,10 @@ namespace WebServices
                     while (reader.Read())
                     {
                         _hostEquipo = reader[0].ToString().Trim();
-                        _fechaBackup = ParseSQLDate(reader[1].ToString());
+                        //_fechaBackup = ParseSQLDate(reader[1].ToString());
                     }
 
-                    chequearEstado(_fechaBackup,_hostEquipo);
+                    return chequearEstado(_fechaBackup,_hostEquipo);
                 }
                 // Cierra la conexion
                 con.Close();
@@ -58,20 +58,6 @@ namespace WebServices
         }
 
 
-        private string ParseSQLDate(string _fecha)
-        {
-            try
-            {
-
-                DateTime fecha = DateTime.Parse(_fecha);
-                return fecha.ToString("yyyy_MM_dd");
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-
         private string _userSamba = "nchavez";
         private string _passSamba = "strato1986";
         private int _counter = 0;
@@ -80,21 +66,32 @@ namespace WebServices
         private string chequearEstado(string fecha,string hostname)
         {
             Console.WriteLine(String.Format("net use \\\\10.1.9.216\\Status /user:{0} {1}", _userSamba, _passSamba));
-
+            string _carpeta = String.Format("\\\\10.1.9.216\\Status\\{0}", _fechaActual);
+            if (Directory.Exists(_carpeta))
+            {
+                
+                ///TODO: Si existe la carpeta buscar el archivo dependiendo del hostName y leerlo para saber si el backup esta hecho o no
+                return "existe";
+            }
+            else
+            {
+                return "La carpeta: " + _carpeta + " no existe";
+            }
+            /*
             try
             {
                 StreamReader file = new System.IO.StreamReader(String.Format("\\\\10.1.9.216\\Status\\{0}\\{1}.txt", fecha, hostname));
                 /*while ((_line = file.ReadLine()) != null)
                 {
                     
-                }*/
-                _line = file.ReadLine();
-                return "la puta madre";
+                }
+                return file.ReadLine();
+                
             }
             catch (Exception ex)
             {
                 throw ex;
-            }
+            }*/
 
         }
     }
