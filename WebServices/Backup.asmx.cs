@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Configuration;
 using System.Globalization;
+using System.IO;
 
 namespace WebServices
 {
@@ -20,17 +21,12 @@ namespace WebServices
     public class Backup : System.Web.Services.WebService
     {
 
-        private DataSet _ds = new DataSet();
+        private string _hostEquipo;
+        private string _fechaBackup;
 
-        private DataTable _tabla;
-        private DataRow _dr;
-        private DataColumn _columnaHost;
-        private DataColumn _columnaFecha;
-
-        // ASDASDASDASD
         /// <returns>Un DataSet con los datos de la tabla Backups</returns>
         [WebMethod]
-        public DataSet EstadoBackup(int id)
+        public string EstadoBackup(int id)
         {
             // Establecer Conexion
             using (SqlConnection con = new SqlConnection { ConnectionString = ConfigurationManager.ConnectionStrings["TareasMDFLocal"].ConnectionString })
@@ -41,28 +37,17 @@ namespace WebServices
                 // Crea un comando SQL 
                 using (SqlCommand cmd = new SqlCommand(String.Format("ObtenerHostBackup {0}", id)) { CommandType = CommandType.Text, Connection = con })
                 {
-                    _tabla = new DataTable();
-                    _columnaHost = new DataColumn("HostName", Type.GetType("System.String"));
-                    _columnaFecha = new DataColumn("Fecha", Type.GetType("System.String"));
 
-                    _tabla.Columns.Add(_columnaHost);
-                    _tabla.Columns.Add(_columnaFecha);
                     // Lee los datos y devuelve el primero que encuentra
                     SqlDataReader reader = cmd.ExecuteReader();
+
                     while (reader.Read())
                     {
-                        _dr = _tabla.NewRow();
-                        _dr["HostName"] = reader[0].ToString().Trim();
-
-                        _dr["Fecha"] = ParseSQLDate(reader[1].ToString());
-
-                        _tabla.Rows.Add(_dr);
-
-                        _ds.Tables.Add(_tabla);
-                     
+                        _hostEquipo = reader[0].ToString().Trim();
+                        _fechaBackup = ParseSQLDate(reader[1].ToString());
                     }
 
-                    return _ds;
+                    chequearEstado(_fechaBackup,_hostEquipo);
                 }
                 // Cierra la conexion
                 con.Close();
@@ -85,6 +70,32 @@ namespace WebServices
             {
                 throw ex;
             }
+        }
+
+        private string _userSamba = "nchavez";
+        private string _passSamba = "strato1986";
+        private int _counter = 0;
+        private string _line;
+
+        private string chequearEstado(string fecha,string hostname)
+        {
+            Console.WriteLine(String.Format("net use \\\\10.1.9.216\\Status /user:{0} {1}", _userSamba, _passSamba));
+
+            try
+            {
+                StreamReader file = new System.IO.StreamReader(String.Format("\\\\10.1.9.216\\Status\\{0}\\{1}.txt", fecha, hostname));
+                /*while ((_line = file.ReadLine()) != null)
+                {
+                    
+                }*/
+                _line = file.ReadLine();
+                return _line;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
         }
     }
 }

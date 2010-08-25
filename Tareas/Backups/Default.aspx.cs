@@ -10,8 +10,7 @@ namespace Tareas.Backups
     public partial class Default : System.Web.UI.Page
     {
 
-        private string _userSamba = "nchavez";
-        private string _passSamba = "strato1986";
+
         private string _hostEquipo;
         private string _fechaBackup;
 
@@ -28,16 +27,18 @@ namespace Tareas.Backups
             
             int counter = 0;
             string line;
-            /*
+            
             using (Backup backupService = new Backup())
             {
-                DataSet hostBackup = backupService.EstadoBackup(4);
+                /*DataSet hostBackup = backupService.EstadoBackup(4);
                 _hostEquipo = hostBackup.Tables[0].Rows[0].ToString();
-                _fechaBackup = hostBackup.Tables[0].Rows[1].ToString();
-            }
-            */
-            // Read the file and display it line by line.
+                _fechaBackup = hostBackup.Tables[0].Rows[1].ToString();*/
 
+                string hostBackup = backupService.EstadoBackup(4);
+            }
+            
+            // Read the file and display it line by line.
+            /*
             String cmdString = String.Format("net use \\\\10.1.9.216\\Status /user:{0} {1}", _userSamba, _passSamba);
             Console.WriteLine(cmdString);
 
@@ -55,7 +56,9 @@ namespace Tareas.Backups
                 throw ex;
             }
             
-            
+            */
+
+
 
         }
 
