@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Tareas.Site1" %>
+
+
+<%@ Register assembly="DevExpress.Web.v10.1, Version=10.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxMenu" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v10.1, Version=10.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxLoadingPanel" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v10.1, Version=10.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxSiteMapControl" tagprefix="dx" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript" src="~/Scripts/script.js"></script>
+    <link rel="stylesheet" href="~/Styles/site.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="~/Styles/style.css" type="text/css" media="screen" />
+    <!--[if IE 6]><link rel="stylesheet" href="~/Styles/style.ie6.css" type="text/css" media="screen" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="~/Styles/style.ie7.css" type="text/css" media="screen" /><![endif]-->
+</head>
+<body>
+ 
+    <form id="form1" runat="server">
+    
+        <div id="art-page-background-gradient">
+        
+        
+        
+        </div>
+        
+    <div id="art-main">
+    
+        <div class="art-Sheet">
+        
+            <div class="art-Sheet-tl"></div>
+            <div class="art-Sheet-tr"></div>
+            <div class="art-Sheet-bl"></div>
+            <div class="art-Sheet-br"></div>
+            <div class="art-Sheet-tc"></div>
+            <div class="art-Sheet-bc"></div>
+            <div class="art-Sheet-cl"></div>
+            <div class="art-Sheet-cr"></div>
+            <div class="art-Sheet-cc"></div>
+            <div class="art-Sheet-body">
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        <span style="visibility:hidden">
+                        [ <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server">Iniciar sesión</a> ]
+                        </span>
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Usuario: <asp:LoginName ID="HeadLoginName" runat="server" />
+                        
+                        [ <a id="A1"  href="~/Account/Logout.aspx"  runat="server">Cerrar sesión</a> ]
+                        
+                        <!--<asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/"/> -->
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+                <div class="art-nav">
+                    <div class="l"></div>
+                	<div class="r"></div>
+                    
+                    <asp:ContentPlaceHolder ID="MenuContent" runat="server">
+                    </asp:ContentPlaceHolder>
+
+ 
+                </div>
+                <dx:ASPxSiteMapDataSource ID="sitemapTareas" runat="server" SiteMapFileName="" 
+                    SiteMapProvider="MenuSiteMap" />
+                
+                <div class="art-Header">
+                    <div class="art-Header-jpeg">
+                        <img src="<%: Request.Url.GetLeftPart(UriPartial.Authority) %>/tareas/Imagenes/Logo.png" style="margin-left:15px;margin-top:15px"/>
+                    </div>
+                    <div class="art-Logo"></div>
+                </div>
+                <div class="art-contentLayout contenido">
+                    
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+                    
+                </div>
+                <div class="cleared"></div><div class="art-Footer">
+                    <div class="art-Footer-inner">
+                        <!--<a href="#" class="art-rss-tag-icon" title="RSS"></a>-->
+                        <div class="art-Footer-text">
+                            
+                            <!--<p><a href="#">Contact Us</a> | <a href="#">Terms of Use</a> | <a href="#">Trademarks</a>
+                                | <a href="#">Privacy Statement</a><br />-->
+                                <p>Secretaria de Informatica y Comunicaciones - Direccion de Infraestructura 2010.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="art-Footer-background"></div>
+                </div>
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        <div class="cleared"></div>
+        <p class="art-page-footer"></p>
+        
+    </div>
+        
+    </form>
+
+</body>
+</html>
