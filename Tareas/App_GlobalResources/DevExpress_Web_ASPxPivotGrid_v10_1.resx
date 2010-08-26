@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PivotGridStringId.RowHeadersCustomization">
+    <value>Suelte Campos de Fila Aquí</value>
+  </data>
+  <data name="PivotGridStringId.ColumnHeadersCustomization">
+    <value>Suelte Campos de Columna Aquí</value>
+  </data>
+  <data name="PivotGridStringId.FilterHeadersCustomization">
+    <value>Suelte Campos de Filtro Aquí</value>
+  </data>
+  <data name="PivotGridStringId.DataHeadersCustomization">
+    <value>Suelte Elementos de Datos Aquí</value>
+  </data>
+  <data name="PivotGridStringId.RowArea">
+    <value>Área de Filas</value>
+  </data>
+  <data name="PivotGridStringId.ColumnArea">
+    <value>Área de Columnas</value>
+  </data>
+  <data name="PivotGridStringId.FilterArea">
+    <value>Área de Filtro</value>
+  </data>
+  <data name="PivotGridStringId.DataArea">
+    <value>Área de Datos</value>
+  </data>
+  <data name="PivotGridStringId.FilterShowAll">
+    <value>(Mostrar Todos)</value>
+  </data>
+  <data name="PivotGridStringId.FilterHideAll">
+    <value>(Ocultar Todos)</value>
+  </data>
+  <data name="PivotGridStringId.FilterOk">
+    <value>Aceptar</value>
+  </data>
+  <data name="PivotGridStringId.FilterCancel">
+    <value>Cancelar</value>
+  </data>
+  <data name="PivotGridStringId.FilterShowBlanks">
+    <value>(Mostrar Vacíos)</value>
+  </data>
+  <data name="PivotGridStringId.FilterHideBlanks">
+    <value>(Ocultar Vacíos)</value>
+  </data>
+  <data name="PivotGridStringId.FilterInvert">
+    <value>Invertir Filtro</value>
+  </data>
+  <data name="PivotGridStringId.FilterType">
+    <value>Tipo de Filtro</value>
+  </data>
+  <data name="PivotGridStringId.FilterTypeIncluded">
+    <value>Mostrar valores seleccionados</value>
+  </data>
+  <data name="PivotGridStringId.FilterTypeExcluded">
+    <value>Ocultar valores seleccionados</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormCaption">
+    <value>Lista de campos del PivotGrid</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormText">
+    <value>Arrastre Elementos al Cubo</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormAddTo">
+    <value>Agregar a</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormHint">
+    <value>Arrastre los campos entre las áreas mostradas:</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormDeferLayoutUpdate">
+    <value>Actualización de Diseño Diferido</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormUpdate">
+    <value>Actualizar</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormListBoxText">
+    <value>Arrastre un campo aquí para personalizar el diseño</value>
+  </data>
+  <data name="PivotGridStringId.Total">
+    <value>Total</value>
+  </data>
+  <data name="PivotGridStringId.GrandTotal">
+    <value>Total General</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormat">
+    <value>{0} Total</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatCount">
+    <value>{0} Cuenta</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatSum">
+    <value>{0} Suma</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatMin">
+    <value>{0} Mín</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatMax">
+    <value>{0} Máx</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatAverage">
+    <value>{0} Promedio</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatStdDev">
+    <value>{0} DesvStd</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatStdDevp">
+    <value>{0} DesvPStd</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatVar">
+    <value>{0} Varianza</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatVarp">
+    <value>{0} VarianzaP</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatCustom">
+    <value>{0} Personalizado</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesigner">
+    <value>Diseñador de Impresión</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerPageOptions">
+    <value>Opciones</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerPageBehavior">
+    <value>Comportamiento</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryDefault">
+    <value>Predeterminado</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryLines">
+    <value>Líneas</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryHeaders">
+    <value>Cabeceras</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryFieldValues">
+    <value>Valores de Campos</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerHorizontalLines">
+    <value>Líneas Horiz</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerVerticalLines">
+    <value>Líneas verticales</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerFilterHeaders">
+    <value>De Filtros</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerDataHeaders">
+    <value>Encabezados de Datos</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerColumnHeaders">
+    <value>Encabezados de Columna</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerRowHeaders">
+    <value>Encabezados de fila</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerHeadersOnEveryPage">
+    <value>Cabeceras en Cada Página</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerUnusedFilterFields">
+    <value>Campos de Filtro sin uso</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerMergeColumnFieldValues">
+    <value>Fusionar Valores Columnas</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerMergeRowFieldValues">
+    <value>Fusionar Valores de Filas</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerUsePrintAppearance">
+    <value>Usar Apariencia Impresión</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuRefreshData">
+    <value>Refrescar Datos</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortAscending">
+    <value>Ordenar A-Z</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortDescending">
+    <value>Ordenar Z-A</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuClearSorting">
+    <value>Quitar Ordenación</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowExpression">
+    <value>Editor de Expresiones...</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHideField">
+    <value>Ocultar</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowFieldList">
+    <value>Mostrar Lista de Campos</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHideFieldList">
+    <value>Ocultar Lista de Campos</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFieldOrder">
+    <value>Ordenar</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoBeginning">
+    <value>Mover al Principio</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoLeft">
+    <value>Mover a la Izquierda</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoRight">
+    <value>Mover a la Derecha</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoEnd">
+    <value>Mover al Final</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuCollapse">
+    <value>Contraer</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuExpand">
+    <value>Expandir</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuCollapseAll">
+    <value>Contraer Todos</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuExpandAll">
+    <value>Expandir Todos</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowPrefilter">
+    <value>Mostrar Prefiltro</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHidePrefilter">
+    <value>Ocultar Prefiltro</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortFieldByColumn">
+    <value>Ordenar "{0}" por Ésta Columna</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortFieldByRow">
+    <value>Ordenar "{0}" por Ésta Fila</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuRemoveAllSortByColumn">
+    <value>Quitar Ordenación</value>
+  </data>
+  <data name="PivotGridStringId.DataFieldCaption">
+    <value>Datos</value>
+  </data>
+  <data name="PivotGridStringId.TopValueOthersRow">
+    <value>Otros</value>
+  </data>
+  <data name="PivotGridStringId.CellError">
+    <value>Error</value>
+  </data>
+  <data name="PivotGridStringId.CannotCopyMultipleSelections">
+    <value>Este comando no puede ser usado con selecciones múltiples.</value>
+  </data>
+  <data name="PivotGridStringId.PrefilterFormCaption">
+    <value>Prefiltro del PivotGrid</value>
+  </data>
+  <data name="PivotGridStringId.EditPrefilter">
+    <value>Editar Prefiltro</value>
+  </data>
+  <data name="PivotGridStringId.OLAPMeasuresCaption">
+    <value>Medidas</value>
+  </data>
+  <data name="PivotGridStringId.OLAPDrillDownFilterException">
+    <value>El comando de Mostrar Detalles no se puede ejecutar cuando existen múltiples campos seleccionados en el filtro del informe. Seleccione un solo elemento por campo en el informe antes de intentar profundizar en los datos.</value>
+  </data>
+  <data name="PivotGridStringId.TrendGoingUp">
+    <value>Subiendo</value>
+  </data>
+  <data name="PivotGridStringId.TrendGoingDown">
+    <value>Descendiendo</value>
+  </data>
+  <data name="PivotGridStringId.TrendNoChange">
+    <value>Sin Cambios</value>
+  </data>
+  <data name="PivotGridStringId.StatusBad">
+    <value>Incorrecto</value>
+  </data>
+  <data name="PivotGridStringId.StatusNeutral">
+    <value>Neutro</value>
+  </data>
+  <data name="PivotGridStringId.StatusGood">
+    <value>Correcto</value>
+  </data>
+  <data name="PivotGridStringId.SummaryCount">
+    <value>Recuento</value>
+  </data>
+  <data name="PivotGridStringId.SummarySum">
+    <value>Suma</value>
+  </data>
+  <data name="PivotGridStringId.SummaryMin">
+    <value>Mín</value>
+  </data>
+  <data name="PivotGridStringId.SummaryMax">
+    <value>Máx</value>
+  </data>
+  <data name="PivotGridStringId.SummaryAverage">
+    <value>Promedio</value>
+  </data>
+  <data name="PivotGridStringId.SummaryStdDev">
+    <value>DesvEst</value>
+  </data>
+  <data name="PivotGridStringId.SummaryStdDevp">
+    <value>DesvEstp</value>
+  </data>
+  <data name="PivotGridStringId.SummaryVar">
+    <value>Var</value>
+  </data>
+  <data name="PivotGridStringId.SummaryVarp">
+    <value>Varp</value>
+  </data>
+  <data name="PivotGridStringId.SummaryCustom">
+    <value>Personalizado</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormStackedDefault">
+    <value>Secciones de Campos y Áreas Apiladas</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormStackedSideBySide">
+    <value>Secciones de Campos y Áreas Uno-a-lado-de-otro</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormTopPanelOnly">
+    <value>Solamente Sección de Campos</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormBottomPanelOnly2by2">
+    <value>Solamente Secciones de Áreas (2 por 2)</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormBottomPanelOnly1by4">
+    <value>Solamente Secciones de Áreas (1 por 4)</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormLayoutButtonTooltip">
+    <value>Pantalla de Personalizaciones del Diseño</value>
+  </data>
+  <data name="PivotGridStringId.Alt_Expand">
+    <value>[Expandir]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_Collapse">
+    <value>[Contraer]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_SortedAscending">
+    <value>(Ascendente)</value>
+  </data>
+  <data name="PivotGridStringId.Alt_SortedDescending">
+    <value>(Descendente)</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterWindowSizeGrip">
+    <value>[Redimensionar]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterButton">
+    <value>[Filtrar]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterButtonActive">
+    <value>[Filtrado]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_DragHideField">
+    <value>Ocultar</value>
+  </data>
+</root>
