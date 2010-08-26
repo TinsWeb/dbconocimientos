@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tareas", "Tareas\Tareas.csproj", "{AFD1AF5C-AD50-4500-B826-58AEF0012870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServices", "WebServices\WebServices.csproj", "{8F930A77-B125-423E-AE21-333D0C5D0411}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD1AF5C-AD50-4500-B826-58AEF0012870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD1AF5C-AD50-4500-B826-58AEF0012870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD1AF5C-AD50-4500-B826-58AEF0012870}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AFD1AF5C-AD50-4500-B826-58AEF0012870}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AFD1AF5C-AD50-4500-B826-58AEF0012870}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AFD1AF5C-AD50-4500-B826-58AEF0012870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD1AF5C-AD50-4500-B826-58AEF0012870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD1AF5C-AD50-4500-B826-58AEF0012870}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AFD1AF5C-AD50-4500-B826-58AEF0012870}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AFD1AF5C-AD50-4500-B826-58AEF0012870}.Release|x86.ActiveCfg = Release|Any CPU
+		{8F930A77-B125-423E-AE21-333D0C5D0411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F930A77-B125-423E-AE21-333D0C5D0411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F930A77-B125-423E-AE21-333D0C5D0411}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8F930A77-B125-423E-AE21-333D0C5D0411}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8F930A77-B125-423E-AE21-333D0C5D0411}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8F930A77-B125-423E-AE21-333D0C5D0411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F930A77-B125-423E-AE21-333D0C5D0411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F930A77-B125-423E-AE21-333D0C5D0411}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8F930A77-B125-423E-AE21-333D0C5D0411}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8F930A77-B125-423E-AE21-333D0C5D0411}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
