@@ -3,19 +3,19 @@
   <publishProfile publishUrl="C:\inetpub\wwwroot\tareas" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
     <file relUrl="Equipos/Default.aspx" publishTime="08/19/2010 12:57:43" />
     <file relUrl="DevExpress/ASPxSpellCheckerForms/SpellCheckForm.ascx" publishTime="07/15/2010 14:05:15" />
-    <file relUrl="bin/App_Data/Tareas_log.LDF" publishTime="08/25/2010 16:20:35" />
+    <file relUrl="bin/App_Data/Tareas_log.LDF" publishTime="08/26/2010 13:27:09" />
     <file relUrl="bin/DevExpress.Data.v10.1.xml" publishTime="04/30/2010 18:46:59" />
     <file relUrl="App_Themes/Glass/ASPxSplitter.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="App_Themes/Glass/ASPxComboBox.skin" publishTime="07/17/2010 00:28:13" />
     <file relUrl="App_GlobalResources/DevExpress_Web_ASPxGridView_v10_1.resx" publishTime="07/08/2010 00:44:25" />
     <file relUrl="bin/Styles/Site.css" publishTime="08/23/2010 11:10:25" />
     <file relUrl="App_Themes/Glass/ASPxSiteMapControl.skin" publishTime="07/17/2010 00:28:14" />
-    <file relUrl="Styles/images/nav.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="App_Themes/Glass/MonthEdit.skin" publishTime="07/17/2010 00:28:14" />
+    <file relUrl="Admin/Web.config" publishTime="08/17/2010 09:56:37" />
     <file relUrl="bin/Login.aspx.cs" publishTime="08/20/2010 12:53:01" />
     <file relUrl="Imagenes/login.png" publishTime="07/13/2010 12:57:09" />
     <file relUrl="Styles/images/01.png" publishTime="08/19/2010 13:41:50" />
-    <file relUrl="ReporteErrores/Default.aspx" publishTime="08/19/2010 13:37:41" />
+    <file relUrl="bin/Scripts/images/Sheet-s.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="App_Themes/Glass/ASPxTextBox.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="Imagenes/ico/accept-icon.png" publishTime="07/15/2010 14:16:21" />
     <file relUrl="Account/Web.config" publishTime="08/13/2010 09:53:51" />
@@ -27,7 +27,6 @@
     <file relUrl="App_Themes/Glass/ASPxNewsControl.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="bin/Scripts/images/BlockHeaderIcon.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="App_Themes/Glass/ASPxRatingControl.skin" publishTime="07/17/2010 00:28:14" />
-    <file relUrl="Admin/CrearUsuario.aspx" publishTime="08/20/2010 09:41:31" />
     <file relUrl="Styles/images/Sheet-s.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="App_GlobalResources/DevExpress_XtraScheduler_v10_1_Core.resx" publishTime="07/08/2010 00:44:25" />
     <file relUrl="Styles/images/contact.jpg" publishTime="08/19/2010 13:41:50" />
@@ -39,22 +38,25 @@
     <file relUrl="Tareas/Estados.aspx" publishTime="08/19/2010 13:37:24" />
     <file relUrl="Scripts/images/VS.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="App_Themes/Glass/ASPxLoadingPanel.skin" publishTime="07/17/2010 00:28:14" />
+    <file relUrl="App_Themes/Glass/ASPxButton.skin" publishTime="07/17/2010 00:28:13" />
     <file relUrl="DevExpress/ASPxHtmlEditorForms/InsertImageForm.ascx" publishTime="07/15/2010 14:05:02" />
-    <file relUrl="bin/Site1.Master.cs" publishTime="08/19/2010 12:54:06" />
+    <file relUrl="bin/Scripts/images/spectacles.gif" publishTime="08/19/2010 12:44:50" />
     <file relUrl="App_Themes/Glass/ASPxPopupControl.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="Equipos/Web.config" publishTime="07/15/2010 12:06:10" />
     <file relUrl="Account/Logout.aspx" publishTime="07/16/2010 22:34:48" />
-    <file relUrl="bin/DevExpress.Web.v10.1.dll" publishTime="04/30/2010 18:52:01" />
-    <file relUrl="Tareas/Web.config" publishTime="07/15/2010 12:06:54" />
+    <file relUrl="bin/Scripts/images/subitem-bg.png" publishTime="08/19/2010 12:44:50" />
+    <file relUrl="bin/Site1.Master.cs" publishTime="08/19/2010 12:54:06" />
     <file relUrl="bin/Scripts/images/Page-BgGradient.jpg" publishTime="08/19/2010 12:44:50" />
     <file relUrl="DevExpress/ASPxHtmlEditorForms/TableColumnPropertiesForm.ascx" publishTime="07/15/2010 14:05:13" />
     <file relUrl="bin/Scripts/images/02.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="App_Themes/Glass/ASPxSpellChecker.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="App_Themes/Glass/ASPxButtonEdit.skin" publishTime="07/17/2010 00:28:13" />
-    <file relUrl="App_Data/Tareas.mdf" publishTime="08/25/2010 16:20:35" />
+    <file relUrl="App_Data/Tareas.mdf" publishTime="08/26/2010 13:27:09" />
     <file relUrl="Styles/style.ie7.css" publishTime="08/19/2010 13:41:50" />
     <file relUrl="Styles/images/link photo.txt" publishTime="08/19/2010 13:41:50" />
+    <file relUrl="App_Themes/Glass/ASPxMemo.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="Imagenes/ico/delete.png" publishTime="03/12/2006 20:52:10" />
+    <file relUrl="DevExpress/ASPxSpellCheckerForms/SpellCheckOptionsForm.ascx" publishTime="07/15/2010 14:05:17" />
     <file relUrl="Styles/images/rssIcon.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="bin/Scripts/images/Footer.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="App_Themes/Glass/ASPxTreeList.skin" publishTime="07/17/2010 00:28:14" />
@@ -62,60 +64,59 @@
     <file relUrl="Scripts/images/PostBullets.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="Scripts/images/BlockContentBullets.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="bin/Scripts/images/Header.jpg" publishTime="08/19/2010 12:44:49" />
-    <file relUrl="App_Themes/Glass/ASPxGridView.skin" publishTime="07/17/2010 00:28:13" />
+    <file relUrl="App_Themes/Glass/ASPxSpinEdit.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="bin/DevExpress.Web.v10.1.xml" publishTime="04/30/2010 18:47:05" />
     <file relUrl="Styles/images/MenuItem.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="App_Themes/Glass/ASPxColorEdit.skin" publishTime="07/17/2010 00:28:13" />
     <file relUrl="bin/Site1.Master" publishTime="08/20/2010 11:41:39" />
-    <file relUrl="Scripts/images/Footer.png" publishTime="08/19/2010 12:44:49" />
+    <file relUrl="bin/DevExpress.Data.v10.1.dll" publishTime="04/30/2010 18:47:29" />
     <file relUrl="App_Themes/Glass/ASPxTimeEdit.skin" publishTime="07/17/2010 00:28:14" />
+    <file relUrl="Scripts/images/01.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="Scripts/images/PostQuote.png" publishTime="08/19/2010 12:44:50" />
+    <file relUrl="Imagenes/ico/flag_alta.png" publishTime="03/12/2006 20:53:06" />
+    <file relUrl="Tareas/Web.config" publishTime="07/15/2010 12:06:54" />
     <file relUrl="App_GlobalResources/DevExpress_XtraReports_v10_1_Web.resx" publishTime="07/08/2010 00:44:25" />
     <file relUrl="App_Themes/Glass/ASPxHyperLink.skin" publishTime="07/17/2010 00:28:14" />
-    <file relUrl="Imagenes/ico/flag_media.png" publishTime="03/12/2006 20:53:08" />
+    <file relUrl="App_Themes/Glass/WeekDaysEdit.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="Global.asax" publishTime="07/06/2010 17:29:04" />
     <file relUrl="Scripts/images/rssIcon.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="bin/Scripts/images/nav.png" publishTime="08/19/2010 12:44:49" />
-    <file relUrl="Styles/images/PostBullets.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="App_Themes/Glass/ASPxPager.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="Account/AdminUsuarios.aspx" publishTime="08/18/2010 09:32:20" />
-    <file relUrl="App_Themes/Glass/ASPxFilterControl.skin" publishTime="07/17/2010 00:28:13" />
     <file relUrl="bin/Scripts/script.js" publishTime="08/19/2010 09:37:51" />
     <file relUrl="App_GlobalResources/DevExpress_Web_ASPxEditors_v10_1.resx" publishTime="07/08/2010 00:44:24" />
-    <file relUrl="Web.config" publishTime="08/25/2010 16:50:06" />
+    <file relUrl="Web.config" publishTime="08/26/2010 13:27:34" />
     <file relUrl="App_GlobalResources/DevExpress_Web_ASPxTreeList_v10_1.resx" publishTime="07/08/2010 00:44:25" />
     <file relUrl="bin/DevExpress.Web.v10.1.Linq.xml" publishTime="04/30/2010 18:46:59" />
     <file relUrl="App_Themes/Glass/ASPxRadioButtonList.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="DevExpress/ASPxHtmlEditorForms/InsertLinkForm.ascx" publishTime="07/15/2010 14:05:04" />
     <file relUrl="bin/DevExpress.Web.v10.1.Linq.dll" publishTime="04/30/2010 18:47:39" />
     <file relUrl="Scripts/images/MenuItem.png" publishTime="08/19/2010 12:44:49" />
+    <file relUrl="bin/Scripts/images/03.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="Scripts/images/BlockHeaderIcon.png" publishTime="08/19/2010 12:44:49" />
-    <file relUrl="Scripts/images/link photo.txt" publishTime="08/19/2010 12:44:49" />
     <file relUrl="bin/DevExpress.Web.ASPxEditors.v10.1.xml" publishTime="04/30/2010 18:47:04" />
     <file relUrl="App_Themes/Glass/WeekOfMonthEdit.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="Styles/images/Button.png" publishTime="08/19/2010 13:41:50" />
-    <file relUrl="Scripts/images/Page-BgGradient.jpg" publishTime="08/19/2010 12:44:50" />
     <file relUrl="bin/Scripts/images/BlockContentBullets.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="App_Themes/Glass/ReportViewer.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="Backups/Web.config" publishTime="08/23/2010 13:04:14" />
     <file relUrl="App_Themes/Glass/ASPxCheckBox.skin" publishTime="07/17/2010 00:28:13" />
-    <file relUrl="App_Themes/Glass/WeekDaysEdit.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="Scripts/images/spacer.gif" publishTime="08/19/2010 12:44:50" />
     <file relUrl="Imagenes/ico/flag_baja.png" publishTime="03/12/2006 20:53:04" />
     <file relUrl="bin/Login.aspx" publishTime="08/23/2010 11:05:43" />
-    <file relUrl="bin/Tareas.pdb" publishTime="08/25/2010 11:52:41" />
+    <file relUrl="bin/Tareas.pdb" publishTime="08/26/2010 13:27:33" />
     <file relUrl="App_GlobalResources/DevExpress_Web_ASPxHtmlEditor_v10_1.resx" publishTime="07/08/2010 00:44:25" />
     <file relUrl="bin/Scripts/images/Sheet-h.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="bin/App_code/SqlSiteMapProvider.cs" publishTime="12/06/2005 14:54:16" />
     <file relUrl="Admin/AdminRoles.aspx" publishTime="08/20/2010 10:11:29" />
-    <file relUrl="bin/Scripts/images/PostQuote.png" publishTime="08/19/2010 12:44:50" />
-    <file relUrl="bin/Scripts/images/subitem-bg.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="Site1.Master" publishTime="08/20/2010 11:41:39" />
-    <file relUrl="bin/Web.config" publishTime="08/25/2010 16:50:06" />
+    <file relUrl="App_Themes/Glass/ReportToolbar.skin" publishTime="07/17/2010 00:28:14" />
+    <file relUrl="ReporteErrores/Default.aspx" publishTime="08/19/2010 13:37:41" />
+    <file relUrl="bin/Web.config" publishTime="08/26/2010 13:27:34" />
     <file relUrl="Scripts/images/nav.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="Styles/images/BlockContentBullets.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="Default.aspx" publishTime="08/19/2010 10:02:59" />
-    <file relUrl="bin/Scripts/images/Sheet-s.png" publishTime="08/19/2010 12:44:50" />
+    <file relUrl="Imagenes/ico/flag_media.png" publishTime="03/12/2006 20:53:08" />
     <file relUrl="Imagenes/ico/pencil.png" publishTime="03/12/2006 20:56:04" />
     <file relUrl="Styles/images/BlockHeaderIcon.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="bin/Scripts/images/VS.png" publishTime="08/19/2010 12:44:50" />
@@ -135,8 +136,9 @@
     <file relUrl="App_Themes/Glass/ASPxDataView.skin" publishTime="07/17/2010 00:28:13" />
     <file relUrl="Web.sitemap" publishTime="08/20/2010 11:44:16" />
     <file relUrl="App_Themes/Glass/ASPxDateNavigator.skin" publishTime="07/17/2010 00:28:13" />
+    <file relUrl="Scripts/images/Sheet-h.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="App_GlobalResources/DevExpress_Web_ASPxSpellChecker_v10_1.resx" publishTime="07/08/2010 00:44:25" />
-    <file relUrl="Scripts/images/spectacles.gif" publishTime="08/19/2010 12:44:50" />
+    <file relUrl="bin/DevExpress.Web.v10.1.dll" publishTime="04/30/2010 18:52:01" />
     <file relUrl="Scripts/images/Sheet-v.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="bin/Login.aspx.designer.cs" publishTime="08/20/2010 13:56:41" />
     <file relUrl="Tareas/Default.aspx" publishTime="08/19/2010 13:37:17" />
@@ -145,7 +147,7 @@
     <file relUrl="bin/DevExpress.Web.ASPxEditors.v10.1.dll" publishTime="04/30/2010 18:52:06" />
     <file relUrl="DevExpress/ASPxHtmlEditorForms/InsertTableForm.ascx" publishTime="07/15/2010 14:05:10" />
     <file relUrl="App_GlobalResources/DevExpress_Web_v10_1.resx" publishTime="07/08/2010 00:44:25" />
-    <file relUrl="Admin/Web.config" publishTime="08/17/2010 09:56:37" />
+    <file relUrl="Scripts/images/Footer.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="Equipos/Grupos.aspx" publishTime="08/19/2010 13:37:51" />
     <file relUrl="Scripts/images/Button.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="App_Themes/Glass/ASPxCalendar.skin" publishTime="07/17/2010 00:28:13" />
@@ -153,6 +155,7 @@
     <file relUrl="Styles/images/Header.jpg" publishTime="08/19/2010 13:41:50" />
     <file relUrl="Styles/style.ie6.css" publishTime="08/19/2010 13:41:50" />
     <file relUrl="bin/Scripts/images/rssIcon.png" publishTime="08/19/2010 12:44:50" />
+    <file relUrl="bin/DevExpress.Web.ASPxGridView.v10.1.xml" publishTime="04/30/2010 18:47:05" />
     <file relUrl="Scripts/script.js" publishTime="08/19/2010 09:37:51" />
     <file relUrl="Account/ChangePassword.aspx" publishTime="07/06/2010 17:29:03" />
     <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="07/06/2010 17:29:04" />
@@ -160,61 +163,58 @@
     <file relUrl="bin/Scripts/images/Sheet-v.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="07/06/2010 17:29:04" />
     <file relUrl="Styles/images/02.png" publishTime="08/19/2010 13:41:50" />
-    <file relUrl="Styles/images/spectacles.gif" publishTime="08/19/2010 13:41:50" />
     <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="07/06/2010 17:29:04" />
-    <file relUrl="App_Themes/Glass/ASPxSpinEdit.skin" publishTime="07/17/2010 00:28:14" />
-    <file relUrl="Styles/images/Page-BgGradient.jpg" publishTime="08/19/2010 13:41:50" />
+    <file relUrl="Scripts/images/link photo.txt" publishTime="08/19/2010 12:44:49" />
+    <file relUrl="Scripts/images/spectacles.gif" publishTime="08/19/2010 12:44:50" />
     <file relUrl="Scripts/images/Header.jpg" publishTime="08/19/2010 12:44:49" />
     <file relUrl="App_Themes/Glass/ASPxCloudControl.skin" publishTime="07/17/2010 00:28:13" />
     <file relUrl="App_GlobalResources/DevExpress_Web_ASPxPivotGrid_v10_1.resx" publishTime="07/08/2010 00:44:25" />
-    <file relUrl="Scripts/images/subitem-bg.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="App_Themes/Glass/ASPxProgressBar.skin" publishTime="07/17/2010 00:28:14" />
-    <file relUrl="bin/DevExpress.Web.ASPxGridView.v10.1.xml" publishTime="04/30/2010 18:47:05" />
+    <file relUrl="Styles/images/nav.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="Styles/images/subitem-bg.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="bin/Scripts/images/01.png" publishTime="08/19/2010 12:44:49" />
     <file relUrl="DevExpress/ASPxHtmlEditorForms/PasteFromWordForm.ascx" publishTime="07/15/2010 14:05:08" />
     <file relUrl="Scripts/images/03.png" publishTime="08/19/2010 12:44:49" />
-    <file relUrl="Admin/Usuarios_Roles.aspx" publishTime="08/20/2010 11:35:22" />
-    <file relUrl="App_Themes/Glass/ReportToolbar.skin" publishTime="07/17/2010 00:28:14" />
+    <file relUrl="Styles/images/PostBullets.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="Imagenes/ico/remove-icon.png" publishTime="07/15/2010 14:16:13" />
-    <file relUrl="Scripts/images/Sheet-h.png" publishTime="08/19/2010 12:44:50" />
+    <file relUrl="App_Themes/Glass/ASPxGridView.skin" publishTime="07/17/2010 00:28:13" />
     <file relUrl="Styles/images/03.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="Tareas/Soluciones.aspx" publishTime="08/19/2010 13:37:32" />
     <file relUrl="bin/Site1.Master.designer.cs" publishTime="08/20/2010 10:19:29" />
     <file relUrl="App_Themes/Glass/ASPxRadioButton.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="App_Themes/Glass/ASPxHeadline.skin" publishTime="07/17/2010 00:28:13" />
-    <file relUrl="App_Data/Tareas_log.LDF" publishTime="08/25/2010 16:20:35" />
+    <file relUrl="App_Data/Tareas_log.LDF" publishTime="08/26/2010 13:27:09" />
     <file relUrl="Styles/images/Footer.png" publishTime="08/19/2010 13:41:50" />
     <file relUrl="App_Themes/Glass/ASPxTabControl.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="bin/Scripts/images/contact.jpg" publishTime="08/19/2010 12:44:49" />
     <file relUrl="bin/Scripts/images/Thumbs.db" publishTime="08/25/2010 10:53:11" />
     <file relUrl="Login.aspx" publishTime="08/23/2010 11:05:43" />
-    <file relUrl="bin/Scripts/images/spectacles.gif" publishTime="08/19/2010 12:44:50" />
+    <file relUrl="Styles/images/Page-BgGradient.jpg" publishTime="08/19/2010 13:41:50" />
     <file relUrl="bin/Scripts/images/link photo.txt" publishTime="08/19/2010 12:44:49" />
     <file relUrl="Scripts/images/contact.jpg" publishTime="08/19/2010 12:44:49" />
-    <file relUrl="bin/Scripts/images/03.png" publishTime="08/19/2010 12:44:49" />
-    <file relUrl="App_Themes/Glass/ASPxMemo.skin" publishTime="07/17/2010 00:28:14" />
+    <file relUrl="Admin/Usuarios_Roles.aspx" publishTime="08/20/2010 11:35:22" />
+    <file relUrl="App_Themes/Glass/ASPxFilterControl.skin" publishTime="07/17/2010 00:28:13" />
     <file relUrl="Styles/images/spacer.gif" publishTime="08/19/2010 13:41:50" />
     <file relUrl="App_Themes/Glass/ASPxLabel.skin" publishTime="07/17/2010 00:28:14" />
-    <file relUrl="Scripts/images/01.png" publishTime="08/19/2010 12:44:49" />
+    <file relUrl="Scripts/images/subitem-bg.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="App_Themes/Glass/ASPxPopupMenu.skin" publishTime="07/17/2010 00:28:14" />
-    <file relUrl="bin/App_Data/Tareas.mdf" publishTime="08/25/2010 16:20:35" />
+    <file relUrl="bin/App_Data/Tareas.mdf" publishTime="08/26/2010 13:27:09" />
     <file relUrl="App_Themes/Glass/ASPxListBox.skin" publishTime="07/17/2010 00:28:14" />
-    <file relUrl="bin/DevExpress.Data.v10.1.dll" publishTime="04/30/2010 18:47:29" />
+    <file relUrl="Styles/images/spectacles.gif" publishTime="08/19/2010 13:41:50" />
     <file relUrl="App_GlobalResources/DevExpress_Web_ASPxScheduler_v10_1.resx" publishTime="07/08/2010 00:44:25" />
     <file relUrl="Scripts/images/Page-BgTexture.jpg" publishTime="08/19/2010 12:44:50" />
     <file relUrl="Imagenes/ico/add.png" publishTime="03/12/2006 20:48:16" />
     <file relUrl="Styles/Site.css" publishTime="08/23/2010 11:10:25" />
-    <file relUrl="Imagenes/ico/flag_alta.png" publishTime="03/12/2006 20:53:06" />
+    <file relUrl="Scripts/images/Page-BgGradient.jpg" publishTime="08/19/2010 12:44:50" />
     <file relUrl="App_Themes/Glass/ASPxPageControl.skin" publishTime="07/17/2010 00:28:14" />
     <file relUrl="App_Themes/Glass/ASPxHtmlEditor.skin" publishTime="07/17/2010 00:28:13" />
-    <file relUrl="DevExpress/ASPxSpellCheckerForms/SpellCheckOptionsForm.ascx" publishTime="07/15/2010 14:05:17" />
+    <file relUrl="bin/Scripts/images/PostQuote.png" publishTime="08/19/2010 12:44:50" />
     <file relUrl="DevExpress/ASPxHtmlEditorForms/ImagePropertiesForm.ascx" publishTime="07/15/2010 14:05:06" />
     <file relUrl="App_Themes/Glass/ASPxDropDownEdit.skin" publishTime="07/17/2010 00:28:13" />
     <file relUrl="bin/Scripts/images/spacer.gif" publishTime="08/19/2010 12:44:50" />
     <file relUrl="Styles/images/Page-BgTexture.jpg" publishTime="08/19/2010 13:41:50" />
-    <file relUrl="App_Themes/Glass/ASPxButton.skin" publishTime="07/17/2010 00:28:13" />
-    <file relUrl="bin/Tareas.dll" publishTime="08/25/2010 11:52:41" />
+    <file relUrl="Admin/CrearUsuario.aspx" publishTime="08/20/2010 09:41:31" />
+    <file relUrl="bin/Tareas.dll" publishTime="08/26/2010 13:27:33" />
     <file relUrl="App_Themes/Glass/ASPxTitleIndex.skin" publishTime="07/17/2010 00:28:14" />
   </publishProfile>
 </publishData>

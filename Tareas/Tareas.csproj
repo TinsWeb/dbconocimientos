@@ -687,10 +687,10 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://localhost:3579/Backup.asmx">
+    <WebReferenceUrl Include="http://localhost/WebServices/Backup.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\TareasServices\</RelPath>
-      <UpdateFromURL>http://localhost:3579/Backup.asmx</UpdateFromURL>
+      <UpdateFromURL>http://localhost/WebServices/Backup.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>

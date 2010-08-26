@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Tareas_TareasServices_Backup" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://localhost:3579/Backup.asmx</Value>
+      <Value Profile="(Default)">http://localhost/WebServices/Backup.asmx</Value>
     </Setting>
   </Settings>
 </SettingsFile>

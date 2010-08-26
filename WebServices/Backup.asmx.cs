@@ -8,12 +8,13 @@ using System.Configuration;
 using System.Globalization;
 using System.IO;
 
+
 namespace WebServices
 {
     /// <summary>
     /// Descripción breve de Service1
     /// </summary>
-    [WebService(Namespace = "http://tempuri.org/")]
+    [WebService(Namespace = "http://localhost/WebServices")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
     // Para permitir que se llame a este servicio Web desde un script, usando ASP.NET AJAX, quite la marca de comentario de la línea siguiente. 
@@ -71,10 +72,15 @@ namespace WebServices
             {
                 
                 ///TODO: Si existe la carpeta buscar el archivo dependiendo del hostName y leerlo para saber si el backup esta hecho o no
-                return "existe";
+                //return "existe";
+
+                StreamReader file = new System.IO.StreamReader(_carpeta + String.Format("\\{0}.txt", hostname));
+
+                return file.ReadLine();
             }
             else
             {
+                //throw new carpetaInexistenteException("La carpeta no existe");
                 return "La carpeta: " + _carpeta + " no existe";
             }
             /*

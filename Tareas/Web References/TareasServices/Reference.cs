@@ -26,7 +26,7 @@ namespace Tareas.TareasServices {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.0.30319.1")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Web.Services.WebServiceBindingAttribute(Name="BackupSoap", Namespace="http://tempuri.org/")]
+    [System.Web.Services.WebServiceBindingAttribute(Name="BackupSoap", Namespace="http://localhost/WebServices")]
     public partial class Backup : System.Web.Services.Protocols.SoapHttpClientProtocol {
         
         private System.Threading.SendOrPostCallback EstadoBackupOperationCompleted;
@@ -73,7 +73,7 @@ namespace Tareas.TareasServices {
         public event EstadoBackupCompletedEventHandler EstadoBackupCompleted;
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/EstadoBackup", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://localhost/WebServices/EstadoBackup", RequestNamespace="http://localhost/WebServices", ResponseNamespace="http://localhost/WebServices", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string EstadoBackup(int id) {
             object[] results = this.Invoke("EstadoBackup", new object[] {
                         id});
