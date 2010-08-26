@@ -26,7 +26,7 @@ namespace Tareas.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:3579/Backup.asmx")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost/WebServices/Backup.asmx")]
         public string Tareas_TareasServices_Backup {
             get {
                 return ((string)(this["Tareas_TareasServices_Backup"]));

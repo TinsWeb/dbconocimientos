@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://localhost/WebServices" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://localhost/WebServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
-    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost/WebServices">
       <s:element name="EstadoBackup">
         <s:complexType>
           <s:sequence>
@@ -33,7 +33,7 @@
   <wsdl:binding name="BackupSoap" type="tns:BackupSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="EstadoBackup">
-      <soap:operation soapAction="http://tempuri.org/EstadoBackup" style="document" />
+      <soap:operation soapAction="http://localhost/WebServices/EstadoBackup" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -45,7 +45,7 @@
   <wsdl:binding name="BackupSoap12" type="tns:BackupSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="EstadoBackup">
-      <soap12:operation soapAction="http://tempuri.org/EstadoBackup" style="document" />
+      <soap12:operation soapAction="http://localhost/WebServices/EstadoBackup" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -56,10 +56,10 @@
   </wsdl:binding>
   <wsdl:service name="Backup">
     <wsdl:port name="BackupSoap" binding="tns:BackupSoap">
-      <soap:address location="http://localhost:3579/Backup.asmx" />
+      <soap:address location="http://localhost/WebServices/Backup.asmx" />
     </wsdl:port>
     <wsdl:port name="BackupSoap12" binding="tns:BackupSoap12">
-      <soap12:address location="http://localhost:3579/Backup.asmx" />
+      <soap12:address location="http://localhost/WebServices/Backup.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

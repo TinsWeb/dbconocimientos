@@ -2,6 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tareas", "Tareas\Tareas.csproj", "{AFD1AF5C-AD50-4500-B826-58AEF0012870}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F930A77-B125-423E-AE21-333D0C5D0411} = {8F930A77-B125-423E-AE21-333D0C5D0411}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServices", "WebServices\WebServices.csproj", "{8F930A77-B125-423E-AE21-333D0C5D0411}"
 EndProject
