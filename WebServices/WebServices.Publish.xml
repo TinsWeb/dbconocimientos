@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://localhost/WebServices" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Sitio web predeterminado/WebServices" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/WebServices.dll" publishTime="08/26/2010 13:29:23" />
+    <file relUrl="bin/WebServices.pdb" publishTime="08/26/2010 13:29:23" />
+    <file relUrl="Web.config" publishTime="08/25/2010 16:52:31" />
+    <file relUrl="Backup.asmx" publishTime="08/23/2010 12:30:20" />
+  </publishProfile>
+</publishData>
