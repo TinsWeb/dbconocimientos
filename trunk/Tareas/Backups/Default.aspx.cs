@@ -16,50 +16,6 @@ namespace Tareas.Backups
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            /*using (StreamWriter sw = new StreamWriter("\\\\10.1.9.216\\Status\\asd.txt"))
-            {
-                // Add some text to the file.
-                sw.WriteLine("I am writing in the file");
-                sw.WriteLine("-------------------");
-                sw.WriteLine("The date is: " + DateTime.Now);
-
-            }*/
-            
-            int counter = 0;
-            string line;
-            
-            using (Backup backupService = new Backup())
-            {
-                /*DataSet hostBackup = backupService.EstadoBackup(4);
-                _hostEquipo = hostBackup.Tables[0].Rows[0].ToString();
-                _fechaBackup = hostBackup.Tables[0].Rows[1].ToString();*/
-
-                string hostBackup = backupService.EstadoBackup(4);
-            }
-            
-            // Read the file and display it line by line.
-            /*
-            String cmdString = String.Format("net use \\\\10.1.9.216\\Status /user:{0} {1}", _userSamba, _passSamba);
-            Console.WriteLine(cmdString);
-
-            try
-            {
-                StreamReader file = new System.IO.StreamReader("\\\\10.1.9.216\\Status\\2010_08_07\\correo.txt");
-                while ((line = file.ReadLine()) != null)
-                {
-                    //Console.WriteLine(line);
-                    counter++;
-                }
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-            
-            */
-
-
-
         }
 
         protected void gridBackups_StartRowEditing(object sender, DevExpress.Web.Data.ASPxStartRowEditingEventArgs e)
