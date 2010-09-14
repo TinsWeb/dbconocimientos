@@ -74,7 +74,7 @@
                 
                 <div class="art-Header">
                     <div class="art-Header-jpeg">
-                        <img src="<%: Request.Url.GetLeftPart(UriPartial.Authority) %>/tareas/Imagenes/Logo.png" style="margin-left:15px;margin-top:15px"/>
+                        <img src="<%: Request.Url.GetLeftPart(UriPartial.Authority) %>/Imagenes/Logo.png" style="margin-left:15px;margin-top:15px"/>
                     </div>
                     <div class="art-Logo"></div>
                 </div>

@@ -300,7 +300,7 @@
 
                 <EditItemTemplate>
                     <dx:ASPxHtmlEditor ID="ASPxHtmlEditor1" runat="server" ClientIDMode="AutoID" 
-                        Html='<%# Bind("tarea_descripcion") %>' Width="100%" Height="100%">
+                        Html='<%# Bind("tarea_descripcion") %>' Width="100%" Height="300px">
                         <Settings AllowHtmlView="False" AllowPreview="False" />
                         <SettingsImageUpload UploadImageFolder="~/Imagenes/Subidas/">
                         </SettingsImageUpload>
